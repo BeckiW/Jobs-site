@@ -1,0 +1,237 @@
+@import url("https://use.typekit.net/bam4lwa.css");
+
+.main-content-listing {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  flex-wrap: wrap;
+
+}
+
+a{
+ color: #484848;
+ font-weight: 500;
+ font-family: "ff-dagny-web-pro", sans-serif;
+}
+
+a:hover {
+  color: #d73;
+
+}
+
+h1, h3, p {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  color: #333333;
+  font-weight: 400;
+  text-align: left;
+}
+
+.jobListing h1 {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  color: #333333;
+  font-weight: 400;
+  text-align: left;
+}
+
+.jobListing {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 128px;
+  font-size: 34px;
+  margin-top: 50px;
+  font-family: "ff-dagny-web-pro", sans-serif;
+  color: #333333;
+  font-weight: 600;
+  text-align: left;
+}
+
+.content-text {
+  font-size: 18px;
+  padding: 0;
+  width: 100%;
+  margin: 32px 128px 100px;
+}
+
+.job-wrap {
+  padding: 16px;
+}
+
+.listing-buttons {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 128px;
+  font-size: 34px;
+  margin-top: 20px;
+}
+
+.listing-buttons > button {
+  margin-right: 18px;
+}
+
+.table {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  color: #333333 !important;
+  font-weight: 400 !important;
+  text-align: left !important;
+  font-size: 18px !important;
+}
+
+.Dropdown-arrow {
+  border-bottom-color: #ffffff !important;
+  border-top-color: #ffffff  !important;
+  border-right-color: transparent !important;
+  border-left-color: transparent !important;
+  position: absolute !important;
+  right: 15px !important;
+  border-width: 8px 8px 0px !important;
+  top: 20px  !important;
+}
+
+.Dropdown-control {
+  background-color: #5b3f8a !important;
+  /* background-color: #f04e29 !important; */
+  border: none !important;
+  color: white !important;
+  font-size: 16px !important;
+  margin: 4px 2px !important;
+  padding: 12px 55px !important;
+  margin-right: 16px !important;
+  min-width: 168px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  border-radius: 5px !important;
+  font-family: "ff-dagny-web-pro", sans-serif;
+}
+
+.Dropdown-control:hover {
+    background-color: #300e6b !important;
+}
+
+.Dropdown-menu {
+  font-size: 16px !important;
+  font-family: "ff-dagny-web-pro", sans-serif;
+}
+
+.related-jobs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 350px;
+}
+
+.related-jobs1 {
+  width: 50%;
+overflow: hidden;
+background-color: #000000;
+z-index: 0;
+}
+
+.related-jobs2 p {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  /* color: #8fbab5; */
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.related-jobs2 h2 {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  /* color: #8fbab5; */
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 3px;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.related-jobs2 {
+  width: 50%;
+  background-color: #179889;
+  margin: 0px;
+
+}
+
+.related-jobs img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.hero-listing {
+  width: 100%;
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-image-listing {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 0px;
+
+}
+
+.hero-image-listing img {
+  height: auto;
+  width: 100%;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.hero-text-listing {
+  position: absolute;
+  /* padding-left: 96px; */
+  top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "ff-dagny-web-pro", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 100%;
+}
+
+.hero-text-listing h1 {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  /* color: #8fbab5; */
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 5;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.hero-text-listing p {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  /* color: #8fbab5; */
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 6;
+}

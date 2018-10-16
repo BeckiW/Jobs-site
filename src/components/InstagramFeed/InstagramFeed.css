@@ -1,0 +1,65 @@
+.InstagramFeed-container {
+background-color: #179889;
+
+}
+
+.instagram-text {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  display: flex;
+  color: #333333;
+  letter-spacing: 1.5;
+  align-items: center;
+}
+
+
+.instagram-text-color p {
+  padding: 30px;
+  color: #ffffff;
+  font-family: "ff-dagny-web-pro", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+margin: 0;
+padding: 0px;
+
+}
+
+.instagram-text-color h3 {
+  padding: 30px;
+  color: #ffffff;
+  font-family: "ff-dagny-web-pro", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /* padding-left: 68px;
+  padding-right: 68px;
+  padding-bottom: 40px; */
+  /* padding-top: 10px; */
+}
+
+.image-container>div {
+  flex: 1 1;
+  overflow: hidden;
+  /* margin: 12px; */
+  width: 100%;
+  height: auto;
+}
+
+.image-container>div>img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}

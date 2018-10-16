@@ -1,0 +1,203 @@
+@import url("https://use.typekit.net/bam4lwa.css");
+
+
+.job-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner-margin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.jobImage {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+.job-information {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: white;
+  margin: 4px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-container button {
+  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.Job-title {
+  padding-top: 50px;
+}
+
+.job-intro p {
+  font-size: 28px;
+  padding-bottom: 30px;
+  font-family: "ff-dagny-web-pro", sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.job-workday, .job-aboutUs, .job-aboutYou p {
+  padding-bottom: 30px;
+  font-family: "ff-dagny-web-pro", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.colleagues h3 {
+  text-align: center;
+}
+
+.job-information h1, h3  {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  color: #333333;
+  font-weight: 600;
+  text-align: left;
+}
+
+.job-information h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "ff-dagny-web-pro", sans-serif;
+
+}
+
+.job-information h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+.job-id {
+  font-family: "calibri";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: left;
+}
+
+
+.job-aboutYou {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.job-aboutYou-section  {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f3f0;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+.aboutYou-text {
+  width: 60%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.aboutYou-image {
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.aboutYou-image img {
+  height: 500px;
+  object-fit: contain;
+}
+
+.hero-posting {
+  width: 100%;
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-image-posting {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 0px;
+
+}
+
+.hero-image-posting img {
+  height: auto;
+  width: 100%;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.hero-text-posting {
+  position: absolute;
+  /* padding-left: 96px; */
+  top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "ff-dagny-web-pro", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 100%;
+}
+
+.hero-text-posting h1 {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  /* color: #8fbab5; */
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 5;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.hero-text-posting p {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  /* color: #8fbab5; */
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 6;
+}
+
+.JobGone {
+text-align: center;
+}

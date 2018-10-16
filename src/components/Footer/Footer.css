@@ -1,0 +1,51 @@
+@import url("https://use.typekit.net/bam4lwa.css");
+
+
+.footer {
+  font-size: 14px;
+  color: black;
+  font-family: sans-serif;
+  padding: 24px 96px;
+  display: flex;
+  justify-content: center;
+  /* background-color: #d5ccc7; */
+  /* background-color: #e0d9d5; */
+  background-color: #eceaeb;
+  /* background-color: #F5F5F5; */
+}
+
+.footer-link {
+  font-family: "ff-dagny-web-pro", sans-serif;
+  color: #179889;
+}
+
+.first-line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-item {
+  flex-grow: 0;
+  margin: 20px;
+}
+
+.footer-item > a {
+  text-decoration: underline;
+  font-family: "ff-dagny-web-pro", sans-serif;
+
+}
+
+.copyright-link {
+  color: #333333;
+}
+
+.footer-container {
+  flex: 1 1;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: center;
+}

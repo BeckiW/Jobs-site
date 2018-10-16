@@ -1,0 +1,32 @@
+@import url("https://use.typekit.net/bam4lwa.css");
+
+
+.button {
+  /* background-color: #cb6e30; */
+  /* background-color: #f04e29; */
+  background-color: #5b3f8a;
+
+  /* background-color: #56c2b5; */
+  border: none;
+  color: white;
+  padding: 12px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "calibri";
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #300e6b;
+  /* background-color: #db4827; */
+  /* background-color: #d73; */
+}
+
+button:focus {outline:0;}

@@ -1,0 +1,31 @@
+@import url("https://use.typekit.net/bam4lwa.css");
+
+.Header img {
+    width: 150px;
+}
+
+.Header {
+  font-size: 14px;
+  font-family: "ff-dagny-web-pro", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  /* font-family: "calibri",sans-serif; */
+  padding: 24px 96px;
+  height: 85px;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0.5px 1px #D0D0D0;
+}
+
+.Header-link {
+  color: #000000;
+  font-family: "ff-dagny-web-pro", sans-serif;
+
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+.Header-link:hover {
+  color: #f04e29;
+}

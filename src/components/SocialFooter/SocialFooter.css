@@ -1,0 +1,41 @@
+.social-footer {
+  background-color: black;
+  height: 148px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-footer-icons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  color: white;
+}
+
+.footer-icon {
+  margin: 18px;
+  font-size: 44px;
+  display: flex;
+  color: white;
+}
+
+.footer-icon:hover {
+  color: #56c2b5;
+}
+
+.social-link:hover {
+  text-decoration: none;
+}
+
+.social-text {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  height: 100%;
+  margin-top: 24px;
+  padding-right: 20px;
+  font-family: "ff-dagny-web-pro", sans-serif;
+}
